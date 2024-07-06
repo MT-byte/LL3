@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('GetProject') {
             steps {
-                git 'https://github.com/PodgeK92/LibraryLink3'
+                git 'https://github.com/MT-Byte/LL3'
             }
         }
         stage('Build') {
